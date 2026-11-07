@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "OpenCV: configure MSVC x64",
+      "type": "process",
+      "command": "cmake",
+      "args": [
+        "--preset",
+        "msvc-x64"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/panorama_stitching"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "OpenCV: build Release",
+      "type": "process",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "--preset",
+        "release"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/panorama_stitching"
+      },
+      "dependsOn": "OpenCV: configure MSVC x64",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$msCompile"
+      ]
+    }
+  ]
+}

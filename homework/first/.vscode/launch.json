@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "OpenCV (MSVC x64 Release)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/panorama_stitching/build/Release/panorama_stitching.exe",
+      "cwd": "${workspaceFolder}/panorama_stitching",
+      "preLaunchTask": "OpenCV: build Release"
+    }
+  ]
+}

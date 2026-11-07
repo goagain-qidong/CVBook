@@ -1,0 +1,3 @@
+D:/CVBook/homework/first/panorama_stitching/build/CMakeFiles/panorama_stitching.dir
+D:/CVBook/homework/first/panorama_stitching/build/CMakeFiles/ALL_BUILD.dir
+D:/CVBook/homework/first/panorama_stitching/build/CMakeFiles/ZERO_CHECK.dir
